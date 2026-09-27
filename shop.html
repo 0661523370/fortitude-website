@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Shop — FORTITUDE</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+        <img src="logo 1.png" alt="FORTITUDE">
+        <span>FORTITUDE</span>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+
+        <a href="index.html">Home</a>
+        <a href="shop.html" class="active">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+
+    </nav>
+
+    <div class="nav-actions">
+
+        <a href="cart.html" class="cart-icon">
+            🛒
+            <span id="cart-count">0</span>
+        </a>
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="page-header">
+
+    <span>FORTITUDE / SHOP</span>
+
+    <h1>
+        THE<br>
+        <span>COLLECTION.</span>
+    </h1>
+
+</section>
+
+
+<section class="shop-container">
+
+    <!-- SEARCH -->
+
+    <div class="shop-search">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="SEARCH PRODUCTS..."
+        >
+
+        <span>⌕</span>
+
+    </div>
+
+
+    <!-- FILTERS -->
+
+    <div class="filters">
+
+        <select id="categoryFilter">
+
+            <option value="all">ALL CATEGORIES</option>
+            <option value="T-Shirts">T-SHIRTS</option>
+            <option value="Hoodies">HOODIES</option>
+
+        </select>
+
+
+        <select id="colourFilter">
+
+            <option value="all">ALL COLOURS</option>
+            <option value="Black">BLACK</option>
+            <option value="White">WHITE</option>
+            <option value="Charcoal">CHARCOAL</option>
+
+        </select>
+
+
+        <select id="sizeFilter">
+
+            <option value="all">ALL SIZES</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+
+        </select>
+
+
+        <select id="sortFilter">
+
+            <option value="default">SORT BY</option>
+            <option value="low">PRICE: LOW → HIGH</option>
+            <option value="high">PRICE: HIGH → LOW</option>
+            <option value="new">NEWEST</option>
+
+        </select>
+
+    </div>
+
+
+    <div class="shop-layout">
+
+        <aside class="shop-sidebar">
+
+            <h3>FILTER</h3>
+
+            <button class="sidebar-filter active" data-category="all">
+                ALL
+            </button>
+
+            <button class="sidebar-filter" data-category="T-Shirts">
+                T-SHIRTS
+            </button>
+
+            <button class="sidebar-filter" data-category="Hoodies">
+                HOODIES
+            </button>
+
+        </aside>
+
+
+        <div class="shop-products">
+
+            <div class="shop-results">
+
+                <span id="resultCount">
+                    6 PRODUCTS
+                </span>
+
+            </div>
+
+            <div
+                class="product-grid"
+                id="shop-products"
+            ></div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="footer-top">
+
+        <div class="footer-brand">
+            <h2>FORTITUDE</h2>
+            <p>Creative minds empowered to thrive.</p>
+        </div>
+
+        <div class="footer-column">
+
+            <h4>EXPLORE</h4>
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+        <p>© 2026 FORTITUDE.</p>
+
+    </div>
+
+</footer>
+
+
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

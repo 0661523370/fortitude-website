@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Your Cart — FORTITUDE</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header class="navbar">
+
+    <a href="index.html" class="logo">
+
+        <img
+            src="logo 1.png"
+            alt="FORTITUDE"
+        >
+
+        <span>FORTITUDE</span>
+
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+
+    </nav>
+
+    <div class="nav-actions">
+
+        <button class="menu-btn" id="menuBtn">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<main>
+
+<section class="page-header cart-header">
+
+    <span>FORTITUDE / CART</span>
+
+    <h1>
+        YOUR<br>
+        <span>BAG.</span>
+    </h1>
+
+</section>
+
+
+<section class="cart-section section">
+
+    <div id="cartContainer">
+        <!-- JavaScript -->
+    </div>
+
+
+    <div
+        class="checkout-section"
+        id="checkoutSection"
+    >
+
+        <h2>CHECKOUT</h2>
+
+        <p>
+            Orders will be sent to the FORTITUDE email address.
+        </p>
+
+
+        <form id="checkoutForm">
+
+            <input
+                type="text"
+                id="customerName"
+                placeholder="FULL NAME"
+                required
+            >
+
+            <input
+                type="email"
+                id="customerEmail"
+                placeholder="EMAIL ADDRESS"
+                required
+            >
+
+            <input
+                type="text"
+                id="customerPhone"
+                placeholder="PHONE NUMBER"
+                required
+            >
+
+            <textarea
+                id="customerAddress"
+                placeholder="DELIVERY ADDRESS"
+                rows="4"
+                required
+            ></textarea>
+
+
+            <button
+                type="submit"
+                class="btn btn-dark"
+            >
+                PLACE ORDER →
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+</main>
+
+
+<footer class="footer">
+
+    <div class="footer-bottom">
+
+        <p>© 2026 FORTITUDE.</p>
+
+    </div>
+
+</footer>
+
+
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+<script src="js/cart.js"></script>
+
+</body>
+</html>
